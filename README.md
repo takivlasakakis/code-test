@@ -5,4 +5,4 @@
 - Feel free to make the Header Background, the Hamburger Menu, and the Submit Button from CSS instead of images if you would like.
 - The font is called `Merriweather` and can be found on `Google Fonts`. You will need `regular` and `bold`.
 - We have only included a mobile design. Please use your best judgment, and build the site responsively.
-- The Form does not need to be functional
+- The form does not need to be functional
