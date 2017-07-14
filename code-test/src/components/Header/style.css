@@ -1,1 +1,54 @@
-style.css
+
+.backgroundColor {
+	box-shadow: 0px 5px 15px grey;
+	height: 48%;
+	left: 30%;
+	position: fixed;
+	margin-top: -100px;
+	margin-left: -100px;
+	width: 50%;
+	z-index: -1;
+
+}
+
+.hamburger {
+	height: 4%;
+	/*opacity: .9;*/
+	left: 31%;
+	margin-top: -50px;
+	margin-left: -100px;
+	position: fixed;
+	top: 7%;
+	width: 2.5%;
+	z-index: 1;
+}
+
+.headerBox {
+	background-color: black;
+    border: 1px solid black;
+	color: white;
+	font-family: 'Merriweather', serif;
+	font-weight: 800;
+	height: 9%;
+	opacity: .8;
+    position: fixed;
+	top: 5%;
+	left: 30%;
+	margin-top: -50px;
+	margin-left: -100px;
+    width: 50%;
+	z-index: 0;
+
+	& h1 {
+			font-weight: 800;
+	}
+}
+
+.profilePic {
+	position: fixed;
+	top: 20%;
+	left: 45%;
+	margin-top: -50px;
+	margin-left: -100px;
+	z-index: 2;
+}
