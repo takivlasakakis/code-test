@@ -8,19 +8,19 @@ class Content extends Component {
 			<div className="container">
 				<div>
 					<h3>First name</h3>
-					<input type="text" name="firstName">
+					<input type="text" name="firstName"></input>
 				</div>
 				<div>
 					<h3>Job Title</h3>
-					<input type="text" name="jobTitle">
+					<input type="text" name="jobTitle"></input>
 				</div>
 				<div>
 					<h3>Birthday</h3>
-					<input type="text" name="birthday">
+					<input type="text" name="birthday"></input>
 				</div>
 				<div>
 					<h3>Bio</h3>
-					<input type="text" name="bio">
+					<input type="text" name="bio"></input>
 				</div>
 			</div>
 		)
