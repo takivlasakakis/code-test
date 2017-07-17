@@ -1,1 +1,16 @@
-style.css
+.footerBox {
+	background-color: black;
+    border: 1px solid black;
+	color: #e6e6e6;
+	font-family: 'Merriweather', serif;
+	font-weight: 800;
+	height: 3%;
+	opacity: .8;
+    position: fixed;
+	top: 100%;
+	left: 30%;
+	margin-top: -50px;
+	margin-left: -100px;
+    width: 50%;
+	z-index: 0;
+}

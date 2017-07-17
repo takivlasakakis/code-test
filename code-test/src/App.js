@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/index.js'
 import Content from './components/Content/index.js'
+import Footer from './components/Footer/index.js'
 
 
 class App extends Component {
@@ -12,8 +13,11 @@ class App extends Component {
         <div className="App-header">
           <Header />
         </div>
-        <div className="content">
+        <div>
           <Content />
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
     );

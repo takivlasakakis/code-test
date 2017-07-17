@@ -6,8 +6,7 @@ import hamburger from './icon-hamburger-nav.png'
 import profilePic from './img-profile.png'
 
 class Header extends Component {
-
-
+	
 	render () {
 	 return (
 	 	<div>
