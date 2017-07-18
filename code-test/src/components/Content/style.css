@@ -1,7 +1,9 @@
 
 .firstNameHeader {
+	opacity: .65;
 	color: #000000;
 	font-family: 'Merriweather', serif;
+	font-weight: 400;
 	position: fixed;
 	top: 44%;
 	left: 45%;
@@ -11,7 +13,7 @@
 }
 
 .firstNameInput {
-	color : #d1d1d1;
+	color: #d1d1d1;
 	font-family: 'Merriweather', serif;
 	position: fixed;
 	top: 48.5%;
@@ -30,6 +32,7 @@ input[type="text"] {
     border: none;
     font-size: 15px;
 }
+
 textarea[alt="bio"] {
 	height: 140px;
 	width: 375px;
@@ -42,8 +45,10 @@ textarea[alt="bio"] {
 }
 
 .jobTitleHeader {
+	opacity: .65;
 	color: #000000;
 	font-family: 'Merriweather', serif;
+	font-weight: 400;
 	position: fixed;
 	top: 53%;
 	left: 45%;
@@ -63,8 +68,10 @@ textarea[alt="bio"] {
 }
 
 .birthdayHeader {
+	opacity: .65;
 	color: #000000;
 	font-family: 'Merriweather', serif;
+	font-weight: 700;
 	position: fixed;
 	top: 62%;
 	left: 45%;
@@ -84,8 +91,10 @@ textarea[alt="bio"] {
 }
 
 .bioHeader {
+	opacity: .65;
 	color: #000000;
 	font-family: 'Merriweather', serif;
+	font-weight: 700;
 	position: fixed;
 	top: 71%;
 	left: 45%;

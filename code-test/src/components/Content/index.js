@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom'
-import styles from './style.css'
+import './style.css'
 import saveButton from './img-save.png'
 
 class Content extends Component {
@@ -29,7 +29,7 @@ class Content extends Component {
 					<h3>Bio</h3>
 				</div>
 				<div className="bioInput">	
-					<textarea type="text" name="bio" placeholder="  A few words about yourself" alt="bio"></textarea>
+					<textarea name="bio" placeholder="  A few words about yourself" alt="bio"></textarea>
 				</div>
 				<img src={saveButton} className="saveButton"
 					alt="saveButton" />

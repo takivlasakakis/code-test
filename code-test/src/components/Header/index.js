@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom'
-import styles from './style.css'
+import './style.css'
 import backgroundColor from './bkg-header.jpg'
 import hamburger from './icon-hamburger-nav.png'
 import profilePic from './img-profile.png'
 
 class Header extends Component {
-	
+
 	render () {
 	 return (
 	 	<div>
@@ -23,7 +23,6 @@ class Header extends Component {
 			<img src={profilePic} className="profilePic"
 			alt="profilePic" />
 		</div>
-
 		)
 	}
 }
