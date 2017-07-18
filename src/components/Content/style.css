@@ -7,9 +7,8 @@
 	left: 45%;
 	margin-top: -45px;
 	margin-left: -100px;
-	margin-bottom: 5em;
 	opacity: .65;
-	position: relative;
+	position: fixed;
 	top: 44%;
 
 }
@@ -21,7 +20,7 @@
 	left: 45%;
 	margin-top: -45px;
 	margin-left: -100px;
-	position: relative;
+	position: fixed;
 	top: 48.5%;
 
 }
@@ -52,11 +51,11 @@ textarea[alt="bio"] {
 	font-family: 'Merriweather', serif;
 	font-size: 15px;
 	font-weight: 400;
-	left: 45em;
+	left: 45%;
 	margin-top: -45px;
 	margin-left: -100px;	
 	opacity: .65;
-	position: relative;
+	position: fixed;
 	top: 53%;
 }
 
@@ -66,7 +65,7 @@ textarea[alt="bio"] {
 	left: 45%;
 	margin-top: -45px;
 	margin-left: -100px;	
-	position: relative;
+	position: fixed;
 	top: 57.5%;
 }
 
@@ -79,7 +78,7 @@ textarea[alt="bio"] {
 	margin-top: -45px;
 	margin-left: -100px;	
 	opacity: .65;	
-	position: relative;
+	position: fixed;
 	top: 62%;
 }
 
@@ -89,11 +88,12 @@ textarea[alt="bio"] {
 	left: 45%;
 	margin-top: -45px;
 	margin-left: -100px;	
-	position: relative;
+	position: fixed;
 	top: 66.5%;
 }
 
 .bioHeader {
+
 	color: #000000;
 	font-family: 'Merriweather', serif;
 	font-size: 15px;	
@@ -102,7 +102,7 @@ textarea[alt="bio"] {
 	margin-top: -45px;
 	margin-left: -100px;		
 	opacity: .65;	
-	position: relative;
+	position: fixed;
 	top: 71%;
 }
 
@@ -112,15 +112,15 @@ textarea[alt="bio"] {
 	left: 45%;
 	margin-top: -45px;
 	margin-left: -100px;	
-	position: relative;
+	position: fixed;
 	top: 75.5%;
 }
 
 .saveButton {
-	position: relative;
+	position: fixed;
 	top: 91.5%;
 	left: 55.3%;
 	margin-top: -45px;
 	margin-left: -100px;
-	min-height: 7%;
+	height: 7%;
 }
