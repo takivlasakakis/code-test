@@ -6,7 +6,7 @@ import saveButton from './img-save.png'
 class Content extends Component {
 	render () {
 		return (
-			<div>
+			<div className="container">
 				<div className="firstNameHeader">
 					<h3>First name</h3>
 				</div>

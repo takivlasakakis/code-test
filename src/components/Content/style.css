@@ -1,5 +1,7 @@
-
 .firstNameHeader {
+	align-content: center;
+	display: inline-flex;
+	flex-wrap: wrap;	
 	color: #000000;
 	font-family: 'Merriweather', serif;
 	font-size: 15px;
@@ -7,6 +9,7 @@
 	left: 45%;
 	margin-top: -45px;
 	margin-left: -100px;
+	min-width: 50px;
 	opacity: .65;
 	position: fixed;
 	top: 44%;
@@ -14,40 +17,52 @@
 }
 
 .firstNameInput {
-	color: #d1d1d1;
+	align-content: center;
+	color: #d1d1d1;	
+	display: inline-flex;	
 	font-family: 'Merriweather', serif;
 	font-size: 15px;
+	flex-wrap: wrap;
 	left: 45%;
 	margin-top: -45px;
 	margin-left: -100px;
+	min-width: 50px;
 	position: fixed;
 	top: 48.5%;
-
 }
 
 input[type="text"] {
+	align-content: center;	
     background-color: #e6e6e6;
     border-radius: 5px;
     border: none;
+    display: inline-flex;
+	flex-wrap: wrap;
     font-size: 15px;    
-    height: 50px;
+    min-height: 50px;
     opacity: 0.7;
     width: 380px;
 }
 
 textarea[alt="bio"] {
+	align-content: center;
+	display: inline-flex;
+	flex-wrap: wrap;	
 	background-color: #e6e6e6;
     border-radius: 5px;
     border: none;
     font-size: 15px;
-	height: 140px;
+	min-height: 140px;
     opacity: 0.7;
     resize: none;
     width: 380px;
 }
 
 .jobTitleHeader {
-	color: #000000;
+	align-content: center;
+	color: #000000;	
+	display: inline-flex;
+	flex-wrap: wrap;	
 	font-family: 'Merriweather', serif;
 	font-size: 15px;
 	font-weight: 400;
@@ -60,6 +75,9 @@ textarea[alt="bio"] {
 }
 
 .jobTitleInput {
+	align-content: center;
+	display: inline-flex;
+	flex-wrap: wrap;	
 	font-family: 'Merriweather', serif;
 	font-size: 15px;
 	left: 45%;
@@ -70,7 +88,10 @@ textarea[alt="bio"] {
 }
 
 .birthdayHeader {
-	color: #000000;
+	align-content: center;
+	color: #000000;	
+	display: inline-flex;
+	flex-wrap: wrap;	
 	font-family: 'Merriweather', serif;
 	font-size: 15px;	
 	font-weight: 700;
@@ -83,6 +104,8 @@ textarea[alt="bio"] {
 }
 
 .birthdayInput {
+	align-content: center;
+	display: inline-flex;
 	font-family: 'Merriweather', serif;
 	font-size: 15px;	
 	left: 45%;
@@ -93,8 +116,10 @@ textarea[alt="bio"] {
 }
 
 .bioHeader {
-
+	align-content: center;
 	color: #000000;
+	display: inline-flex;
+	flex-wrap: wrap;
 	font-family: 'Merriweather', serif;
 	font-size: 15px;	
 	font-weight: 700;
@@ -107,6 +132,9 @@ textarea[alt="bio"] {
 }
 
 .bioInput {
+	align-content: center;
+	display: inline-flex;
+	flex-wrap: wrap;
 	font-family: 'Merriweather', serif;
 	font-size: 15px;	
 	left: 45%;
@@ -117,10 +145,13 @@ textarea[alt="bio"] {
 }
 
 .saveButton {
+	align-content: center;
+	display: inline-flex;
+	flex-wrap: wrap;
 	position: fixed;
 	top: 91.5%;
 	left: 55.3%;
 	margin-top: -45px;
 	margin-left: -100px;
-	height: 7%;
+	max-height: 7%;
 }
