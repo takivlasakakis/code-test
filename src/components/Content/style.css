@@ -1,5 +1,6 @@
 
 .firstNameHeader {
+	display: flex;
 	color: #000000;
 	font-family: 'Merriweather', serif;
 	font-size: 15px;
@@ -7,35 +8,39 @@
 	left: 45%;
 	margin-top: -45px;
 	margin-left: -100px;
+	margin-bottom: 5em;
 	opacity: .65;
-	position: fixed;
+	position: relative;
 	top: 44%;
 
 }
 
 .firstNameInput {
+	display: flex;
 	color: #d1d1d1;
 	font-family: 'Merriweather', serif;
 	font-size: 15px;
 	left: 45%;
 	margin-top: -45px;
 	margin-left: -100px;
-	position: fixed;
+	position: relative;
 	top: 48.5%;
 
 }
 
 input[type="text"] {
+	display: flex;
     background-color: #e6e6e6;
     border-radius: 5px;
     border: none;
     font-size: 15px;    
     height: 50px;
     opacity: 0.7;
-    width: 380px;
+    min-width: 380px;
 }
 
 textarea[alt="bio"] {
+	display: flex;
 	background-color: #e6e6e6;
     border-radius: 5px;
     border: none;
@@ -43,33 +48,36 @@ textarea[alt="bio"] {
 	height: 140px;
     opacity: 0.7;
     resize: none;
-    width: 380px;
+    min-width: 380px;
 }
 
 .jobTitleHeader {
+	display: flex;
 	color: #000000;
 	font-family: 'Merriweather', serif;
 	font-size: 15px;
 	font-weight: 400;
-	left: 45%;
+	left: 45em;
 	margin-top: -45px;
 	margin-left: -100px;	
 	opacity: .65;
-	position: fixed;
+	position: relative;
 	top: 53%;
 }
 
 .jobTitleInput {
+	display: flex;
 	font-family: 'Merriweather', serif;
 	font-size: 15px;
 	left: 45%;
 	margin-top: -45px;
 	margin-left: -100px;	
-	position: fixed;
+	position: relative;
 	top: 57.5%;
 }
 
 .birthdayHeader {
+	display: flex;
 	color: #000000;
 	font-family: 'Merriweather', serif;
 	font-size: 15px;	
@@ -78,22 +86,23 @@ textarea[alt="bio"] {
 	margin-top: -45px;
 	margin-left: -100px;	
 	opacity: .65;	
-	position: fixed;
+	position: relative;
 	top: 62%;
 }
 
 .birthdayInput {
+	display: flex;
 	font-family: 'Merriweather', serif;
 	font-size: 15px;	
 	left: 45%;
 	margin-top: -45px;
 	margin-left: -100px;	
-	position: fixed;
+	position: relative;
 	top: 66.5%;
 }
 
 .bioHeader {
-
+	display: flex;
 	color: #000000;
 	font-family: 'Merriweather', serif;
 	font-size: 15px;	
@@ -102,25 +111,27 @@ textarea[alt="bio"] {
 	margin-top: -45px;
 	margin-left: -100px;		
 	opacity: .65;	
-	position: fixed;
+	position: relative;
 	top: 71%;
 }
 
 .bioInput {
+	display: flex;
 	font-family: 'Merriweather', serif;
 	font-size: 15px;	
 	left: 45%;
 	margin-top: -45px;
 	margin-left: -100px;	
-	position: fixed;
+	position: relative;
 	top: 75.5%;
 }
 
 .saveButton {
-	position: fixed;
+	display: flex;
+	position: relative;
 	top: 91.5%;
 	left: 55.3%;
 	margin-top: -45px;
 	margin-left: -100px;
-	height: 7%;
+	min-height: 7%;
 }
