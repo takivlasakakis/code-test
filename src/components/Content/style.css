@@ -1,5 +1,6 @@
 
 .firstNameHeader {
+	align-items: center;
 	display: flex;
 	color: #000000;
 	font-family: 'Merriweather', serif;
@@ -9,6 +10,7 @@
 	margin-top: -45px;
 	margin-left: -100px;
 	margin-bottom: 5em;
+	min-width: 1080px;
 	opacity: .65;
 	position: relative;
 	top: 44%;
@@ -16,6 +18,7 @@
 }
 
 .firstNameInput {
+	align-items: center;
 	display: flex;
 	color: #d1d1d1;
 	font-family: 'Merriweather', serif;
@@ -23,12 +26,14 @@
 	left: 45%;
 	margin-top: -45px;
 	margin-left: -100px;
+	min-width: 1080px;	
 	position: relative;
 	top: 48.5%;
 
 }
 
 input[type="text"] {
+	align-items: center;
 	display: flex;
     background-color: #e6e6e6;
     border-radius: 5px;
@@ -40,6 +45,7 @@ input[type="text"] {
 }
 
 textarea[alt="bio"] {
+	align-items: center;
 	display: flex;
 	background-color: #e6e6e6;
     border-radius: 5px;
@@ -52,6 +58,7 @@ textarea[alt="bio"] {
 }
 
 .jobTitleHeader {
+	align-items: center;
 	display: flex;
 	color: #000000;
 	font-family: 'Merriweather', serif;
@@ -77,6 +84,7 @@ textarea[alt="bio"] {
 }
 
 .birthdayHeader {
+	align-items: center;
 	display: flex;
 	color: #000000;
 	font-family: 'Merriweather', serif;
@@ -91,6 +99,7 @@ textarea[alt="bio"] {
 }
 
 .birthdayInput {
+	align-items: center;
 	display: flex;
 	font-family: 'Merriweather', serif;
 	font-size: 15px;	
@@ -102,6 +111,7 @@ textarea[alt="bio"] {
 }
 
 .bioHeader {
+	align-items: center;
 	display: flex;
 	color: #000000;
 	font-family: 'Merriweather', serif;
@@ -116,6 +126,7 @@ textarea[alt="bio"] {
 }
 
 .bioInput {
+	align-items: center;
 	display: flex;
 	font-family: 'Merriweather', serif;
 	font-size: 15px;	
@@ -127,6 +138,7 @@ textarea[alt="bio"] {
 }
 
 .saveButton {
+	align-items: center;
 	display: flex;
 	position: relative;
 	top: 91.5%;
