@@ -1,122 +1,125 @@
 
 .firstNameHeader {
-	opacity: .65;
 	color: #000000;
 	font-family: 'Merriweather', serif;
+	font-size: 15px;
 	font-weight: 400;
-	position: fixed;
-	top: 44%;
 	left: 45%;
 	margin-top: -45px;
 	margin-left: -100px;
-	font-size: 15px;
+	opacity: .65;
+	position: fixed;
+	top: 44%;
+
 }
 
 .firstNameInput {
 	color: #d1d1d1;
 	font-family: 'Merriweather', serif;
-	position: fixed;
-	top: 48.5%;
+	font-size: 15px;
 	left: 45%;
 	margin-top: -45px;
 	margin-left: -100px;
-	font-size: 15px;
+	position: fixed;
+	top: 48.5%;
+
 }
 
 input[type="text"] {
-    width: 375px;
-    height: 50px;
     background-color: #e6e6e6;
-    opacity: 0.7;
     border-radius: 5px;
     border: none;
-    font-size: 15px;
+    font-size: 15px;    
+    height: 50px;
+    opacity: 0.7;
+    width: 380px;
 }
 
 textarea[alt="bio"] {
-	height: 140px;
-	width: 375px;
 	background-color: #e6e6e6;
-    opacity: 0.7;
     border-radius: 5px;
     border: none;
     font-size: 15px;
+	height: 140px;
+    opacity: 0.7;
     resize: none;
+    width: 380px;
 }
 
 .jobTitleHeader {
-	opacity: .65;
 	color: #000000;
 	font-family: 'Merriweather', serif;
+	font-size: 15px;
 	font-weight: 400;
-	position: fixed;
-	top: 53%;
 	left: 45%;
 	margin-top: -45px;
-	margin-left: -100px;
-	font-size: 15px;
+	margin-left: -100px;	
+	opacity: .65;
+	position: fixed;
+	top: 53%;
 }
 
 .jobTitleInput {
 	font-family: 'Merriweather', serif;
-	position: fixed;
-	top: 57.5%;
+	font-size: 15px;
 	left: 45%;
 	margin-top: -45px;
-	margin-left: -100px;
-	font-size: 15px;
+	margin-left: -100px;	
+	position: fixed;
+	top: 57.5%;
 }
 
 .birthdayHeader {
-	opacity: .65;
 	color: #000000;
 	font-family: 'Merriweather', serif;
+	font-size: 15px;	
 	font-weight: 700;
-	position: fixed;
-	top: 62%;
 	left: 45%;
 	margin-top: -45px;
-	margin-left: -100px;
-	font-size: 15px;
+	margin-left: -100px;	
+	opacity: .65;	
+	position: fixed;
+	top: 62%;
 }
 
 .birthdayInput {
 	font-family: 'Merriweather', serif;
-	position: fixed;
-	top: 66.5%;
+	font-size: 15px;	
 	left: 45%;
 	margin-top: -45px;
-	margin-left: -100px;
-	font-size: 15px;
+	margin-left: -100px;	
+	position: fixed;
+	top: 66.5%;
 }
 
 .bioHeader {
-	opacity: .65;
+
 	color: #000000;
 	font-family: 'Merriweather', serif;
+	font-size: 15px;	
 	font-weight: 700;
-	position: fixed;
-	top: 71%;
 	left: 45%;
 	margin-top: -45px;
-	margin-left: -100px;
-	font-size: 15px;
+	margin-left: -100px;		
+	opacity: .65;	
+	position: fixed;
+	top: 71%;
 }
 
 .bioInput {
 	font-family: 'Merriweather', serif;
-	position: fixed;
-	top: 75.5%;
+	font-size: 15px;	
 	left: 45%;
 	margin-top: -45px;
-	margin-left: -100px;
-	font-size: 15px;
+	margin-left: -100px;	
+	position: fixed;
+	top: 75.5%;
 }
 
 .saveButton {
 	position: fixed;
 	top: 91.5%;
-	left: 54.8%;
+	left: 55.3%;
 	margin-top: -45px;
 	margin-left: -100px;
 	height: 7%;
